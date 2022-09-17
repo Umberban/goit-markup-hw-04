@@ -26,15 +26,15 @@
         <nav>
           <ul class="pagination">
             <li>
-              <a class="header-link link-black link-hover" href="index.html"
+              <a
+                class="header-link link-black link-hover"
+                href="index.html"
+                aria-current="page"
                 >Студія</a
               >
             </li>
             <li>
-              <a
-                class="header-link link-black link-hover"
-                href="portfolio.html"
-                aria-current="page"
+              <a class="header-link link-black link-hover" href="portfolio.html"
                 >Портфоліо</a
               >
             </li>
@@ -48,14 +48,24 @@
         <ul class="contact-header">
           <li>
             <a
-              class="header-link link-gray link-hover"
+              class="header-link link-gray link-hover contact-link"
               href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+            >
+              <svg class="contact-icon mail-icon">
+                <use href="/images/icons/symbol-defs.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="header-link link-gray link-hover" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+            <a
+              class="header-link link-gray link-hover contact-link"
+              href="tel:+380961111111"
+            >
+              <svg class="contact-icon tel-icon">
+                <use href="/images/icons/symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -96,121 +106,173 @@
           <!-- Main section of portfolio -->
           <ul class="portfolio-img">
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item1.jpg"
-                alt="Ноутбук з зображенням веб-сайту"
-                width="370"
-              />
-              <h3 class="portfolio-h">Технокряк</h3>
-              <p class="portfolio-p portfolio-pcolor">Веб-сайт</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item1.jpg"
+                  alt="Ноутбук з зображенням веб-сайту"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Технокряк</h3>
+                <p class="portfolio-p portfolio-pcolor">Веб-сайт</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item2.jpg"
-                alt="Постер з двома баскетболістами"
-                width="370"
-              />
-              <h3 class="portfolio-h">Постер New Orlean vs Golden Star</h3>
-              <p class="portfolio-p portfolio-pcolor">Дизайн</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item2.jpg"
+                  alt="Постер з двома баскетболістами"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Постер New Orlean vs Golden Star</h3>
+                <p class="portfolio-p portfolio-pcolor">Дизайн</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item3.jpg"
-                alt="Зображення логотипу рибного ресторану"
-                width="370"
-              />
-              <h3 class="portfolio-h">Ресторан Seafood</h3>
-              <p class="portfolio-p portfolio-pcolor">Додаток</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item3.jpg"
+                  alt="Зображення логотипу рибного ресторану"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Ресторан Seafood</h3>
+                <p class="portfolio-p portfolio-pcolor">Додаток</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item4.jpg"
-                alt="Наушники"
-                width="370"
-              />
-              <h3 class="portfolio-h">Проєкт Prime</h3>
-              <p class="portfolio-p portfolio-pcolor">Маркетинг</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item4.jpg"
+                  alt="Наушники"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Проєкт Prime</h3>
+                <p class="portfolio-p portfolio-pcolor">Маркетинг</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item5.jpg"
-                alt="Дві коробки"
-                width="370"
-              />
-              <h3 class="portfolio-h">Проєкт Boxes</h3>
-              <p class="portfolio-p portfolio-pcolor">Додаток</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item5.jpg"
+                  alt="Дві коробки"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Проєкт Boxes</h3>
+                <p class="portfolio-p portfolio-pcolor">Додаток</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item6.jpg"
-                alt="Макбук з веб-сайтом"
-                width="370"
-              />
-              <h3 class="portfolio-h">Inspiration has no Borders</h3>
-              <p class="portfolio-p portfolio-pcolor">Веб-сайт</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item6.jpg"
+                  alt="Макбук з веб-сайтом"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Inspiration has no Borders</h3>
+                <p class="portfolio-p portfolio-pcolor">Веб-сайт</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item7.jpg"
-                alt="Розгорнута книжка"
-                width="370"
-              />
-              <h3 class="portfolio-h">Видання Limited Edition</h3>
-              <p class="portfolio-p portfolio-pcolor">Дизайн</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item7.jpg"
+                  alt="Розгорнута книжка"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Видання Limited Edition</h3>
+                <p class="portfolio-p portfolio-pcolor">Дизайн</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item8.jpg"
-                alt="Бірка"
-                width="370"
-              />
-              <h3 class="portfolio-h">Проєкт LAB</h3>
-              <p class="portfolio-p portfolio-pcolor">Маркетинг</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item8.jpg"
+                  alt="Бірка"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Проєкт LAB</h3>
+                <p class="portfolio-p portfolio-pcolor">Маркетинг</p>
+              </a>
             </li>
             <li class="portfolio-item">
-              <img
-                class="img-project"
-                src="./images/portfolio/portfolio-item9.jpg"
-                alt="Ноутбук і руки, які щось друкують"
-                width="370"
-              />
-              <h3 class="portfolio-h">Growing Business</h3>
-              <p class="portfolio-p portfolio-pcolor">Додаток</p>
+              <a class="portfolio-link" href="">
+                <img
+                  class="img-project"
+                  src="./images/portfolio/portfolio-item9.jpg"
+                  alt="Ноутбук і руки, які щось друкують"
+                  width="370"
+                />
+                <h3 class="portfolio-h">Growing Business</h3>
+                <p class="portfolio-p portfolio-pcolor">Додаток</p>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <a class="logo logo-footer" href="index.html" lang="en"
-          >Web<span class="logo-white">Studio</span></a
-        >
-        <address class="adress">
-          <a
-            class="link-footer link-white link-hover"
-            href="https://goo.gl/maps/gLVNjyqDi5Kqp5Yx6"
-            target="_blank"
-            rel="noreferrer noopener"
-            >м. Київ, пр-т Лесі Українки, 26</a
+      <div class="container footer-container">
+        <div>
+          <a class="logo logo-footer" href="index.html" lang="en"
+            >Web<span class="logo-white">Studio</span></a
           >
-          <a
-            class="link-footer link-gray link-hover"
-            href="mailto:info@devstudio.com"
-            >info@devstudio.com
-          </a>
-          <a class="link-footer link-gray link-hover" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </address>
+          <address class="adress">
+            <a
+              class="link-footer link-white link-hover"
+              href="https://goo.gl/maps/gLVNjyqDi5Kqp5Yx6"
+              target="_blank"
+              rel="noreferrer noopener"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            ><a
+              class="link-footer link-gray link-hover"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="link-footer link-gray link-hover" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
+        <div>
+          <p class="title-social">Приєднуйтесь</p>
+          <ul class="footer-list">
+            <li class="social-item">
+              <a class="social-footer" href="">
+                <svg class="social-svg">
+                  <use href="/images/icons/symbol-defs.svg#instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-footer" href="">
+                <svg class="social-svg">
+                  <use href="/images/icons/symbol-defs.svg#twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-footer" href="">
+                <svg class="social-svg">
+                  <use href="/images/icons/symbol-defs.svg#facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-footer" href="">
+                <svg class="social-svg">
+                  <use href="/images/icons/symbol-defs.svg#linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
