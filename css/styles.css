@@ -204,7 +204,7 @@ background-color: #188CE8;
 .hero-section {
 padding: 200px 0;
 background-color: var(--background-color);
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/images/background.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -281,16 +281,16 @@ background-repeat: no-repeat ;
 background-position: center;
 }
 .antenna-img::before{
-    background-image: url(/images/icons/antenna.svg);
+    background-image: url(./images/icons/antenna.svg);
 }
 .clock-img::before{
-background-image: url(/images/icons/clock.svg);
+background-image: url(./images/icons/clock.svg);
 }
 .diagramma-img::before {
-    background-image: url(/images/icons/diagram.svg);
+    background-image: url(./images/icons/diagram.svg);
 }
 .astronaut-img::before{
-background-image: url(/images/icons/astronaut.svg);
+background-image: url(./images/icons/astronaut.svg);
 }
 /* features section */
 
