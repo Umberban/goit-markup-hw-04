@@ -1,0 +1,301 @@
+:root {
+    --main-color: #212121;
+    --second-color: #757575;
+    --brand-color: #2196F3;
+}
+
+body {
+    font-family: "roboto", sans-serif;
+    color: var(--main-color);
+}
+li{
+list-style:none ;
+}
+button {
+    cursor: pointer;
+    font-family:inherit ;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,ul,p,button,li{
+margin:0;
+padding:0;
+}
+/* container for mark-up */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/* creating flex-container */
+.head-row,
+.contact-header,
+.pagination,
+.features-content,
+.features-images,
+.team-content,
+.btns-sort,
+.portfolio-img {
+    display: flex;
+}
+.logo{
+color:var(--brand-color);
+font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+} /* Logo formating */
+.logo-header{
+padding-right:43px;
+}
+.logo-black{
+color:var(--main-color);
+}
+.title-white,.link-white,.logo-white,.button-color, .btn-portfolio:hover,
+.btn-portfolio:focus{
+color:#fff;
+}
+.link-black{
+color:var(--main-color);
+}
+.link-gray,.p-gray,.portfolio-pcolor { /* set color for elements with gray font */
+color:var(--second-color);
+}
+.footer,.hero-section{
+background-color:#2F303A;
+}
+/* formating header  */
+.header{
+padding-top:24px;
+padding-bottom:24px;
+border-bottom: 1px solid #ECECEC ;
+}
+.footer{
+ padding-top:60px; 
+ padding-bottom:60px;
+}
+.header-link{
+font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+} 
+.contact-header {
+    padding-top: 8px;
+    margin-left: auto;
+    column-gap: 50px;
+}
+.pagination {
+    padding-top: 8px;
+    column-gap:50px ;
+}/* formating header  */
+.link-hover:hover, .link-hover:focus{
+color:var(--brand-color);
+}
+[aria-current]{
+color:var(--brand-color);
+}
+
+.adress {
+    margin-top: 20px;
+}
+.link-footer {
+    font-size: 14px;
+        line-height: 1.5;
+        text-decoration: none;
+        font-style: normal;
+    display:block;
+    letter-spacing: 0.03em;  
+}
+.link-footer:not(:last-child){
+margin-bottom: 9px;
+}
+/* formating footer  */
+.title-upper{
+text-transform: uppercase;
+}
+ /* formating hero section  */
+.hero-button, .btn-portfolio:hover,
+.btn-portfolio:focus{
+background-color:var(--brand-color) ; /* set background "brand" color for elements  */
+}
+.hero-button:hover {
+background-color: #188CE8;
+}
+.hero-section {
+padding: 200px 0;
+}
+.hero-button{
+display:block;
+font-weight: 700;
+font-size: 16px;
+line-height:1.8;
+text-align:center;
+border-radius: 4px;
+letter-spacing: 0.06em;
+border: none;
+padding: 10px 32px;
+margin-left:auto;
+margin-right:auto;
+align-items: center;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.38;
+text-align: center;
+letter-spacing: 0.06em;
+width:696px ;
+margin-left: auto;
+margin-right: auto;
+margin-bottom:30px;
+}  /* formating hero section  */
+/* features section */
+.features-subtitle{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+margin-bottom:10px;
+width: 270px;
+letter-spacing: 0.03em;
+}
+.features-image {
+    width: 370px;
+    display: block;
+}
+.features-description {
+font-size: 14px;
+line-height: 1.71;
+width: 270px;
+letter-spacing: 0.03em;
+}
+.features-content{
+    margin-bottom: 94px;
+    column-gap: 30px
+}
+.features-title {
+    width: 366px;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features-images{
+column-gap: 30px
+}
+/* features section */
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+}
+/* Team section */
+.team-title{
+width:264px ;
+text-align: center;
+margin:0 auto;
+}
+.team-section{
+ background-color:#F5F4FA ;   
+}
+.team-content{
+flex-basis: calc((100% - 90px) / 4);
+}
+.team-card:not(:first-child){
+margin-left: 30px;
+}
+.team-card{
+background-color: #fff;
+width: 270px;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.team-image{
+display:block;
+margin-bottom:30px; ;
+}
+.team-content{
+margin-top:50px;
+}
+.team-name {
+font-size: 16px;
+font-weight: 500;
+margin-bottom:10px;
+}
+.team-role{
+margin-bottom:30px;
+}
+.team-name,.team-role {
+text-align: center;
+line-height: 1.18;
+letter-spacing: 0.03em;
+}
+/* Team section */
+.portfolio-img {
+    flex-wrap: wrap;
+    gap: 26px;
+}
+.portfolio-item{
+flex-basis: calc((100% - 60px) / 3);
+border: 1px solid #EEEEEE;
+}
+
+.btn-gray {
+    background-color: #F5F4FA;
+}
+.visually-hidden { /* there i hide some h2 sections  */
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.portfolio-h{
+font-weight: 700;
+font-size:18px;
+line-height:2 ;
+letter-spacing: 0.06em;
+margin-top:20px;
+padding-left: 24px;
+padding-right: 24px;
+/*font in portfolio  */
+}
+.portfolio-p{
+font-size:16px;
+line-height:1.87 ;
+letter-spacing: 0.03em;
+margin-bottom:20px ;
+padding-left:24px;
+padding-right: 24px;
+
+}
+.btn-portfolio{ /*   */
+border: 0;
+font-weight:500 ;
+font-size:16px;
+line-height:1.6 ;
+padding: 6px 22px 6px 22px;
+border-radius: 4px;
+}
+.btn-first{
+    padding: 6px 25px 6px 25px;
+}
+.btns-sort{
+  column-gap:8px;  
+justify-content:center;
+margin-bottom:50px;
+}
+.img-project{
+display: block;
+}
